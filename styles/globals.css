@@ -1,0 +1,77 @@
+body{
+  background-color: rgb(24, 24, 38);
+  color: beige;
+}
+
+button{
+  background-color: cadetblue;
+  color: rgb(17, 12, 12);
+  border: 1px cadetblue solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: medium;
+  margin: 3rem;
+}
+
+button:hover{
+  background-color: rgb(39, 39, 55);
+  box-shadow: 0 2px 6px white;
+  border: 1px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fileUpload{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headingMain{
+  text-align: center;
+  margin: 8rem;
+  font-size: 3rem;
+}
+
+.fileInput{
+  text-align: center;
+}
+
+.errorPopUp{
+  border: white 1px solid;
+  box-shadow: 0 2px 6px white;
+  border-radius: 5px;
+  margin: 2rem;
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+input{
+  font-size: large;
+
+}
